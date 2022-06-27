@@ -1,0 +1,84 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+*{
+  font-family: 'Anek Malayalam', sans-serif;
+}
+
+div.sfondo{
+  margin-top: 50px;
+  margin-left: 350px;
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-left: 100px;
+}
+
+.contenitore{
+  width: 1000px;
+}
+
+header{
+  text-align: center;
+  color:  #00ff00;
+}
+
+img{
+  width: 25%;
+}
+
+.rettangolo{
+  width: 980px;
+  height: 50px;
+  background-color: #00ff00;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.arrow:after{
+  content: "\21A6";
+}
+
+.carica1{
+  border-radius: 7px;
+  width: 350px;
+  height: 30px;
+  background-color: #ffc04d;
+}
+
+.Via{
+  display: inline-block;
+}
+
+.opzione > span{
+  font-size: 25px;
+}
+
+.Via > span, div{
+  font-size: 18px;
+}
+
+main > div, span{
+  color: white;
+}
+
+.carica2{
+  border-radius: 7px;
+  width: 600px;
+  height: 30px;
+  background-color: #00ff00;
+}
+
+.carica3{
+  border-radius: 7px;
+  width: 150px;
+  height: 30px;
+  background-color: #910d0d;
+}
